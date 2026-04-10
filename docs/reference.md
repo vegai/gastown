@@ -456,7 +456,7 @@ gt config agent remove <name>     # Remove custom agent (built-ins protected)
 gt config default-agent [name]    # Get or set town default agent
 ```
 
-**Built-in agents**: `claude`, `gemini`, `codex`, `cursor`, `auggie`, `amp`, `opencode`, `copilot`
+**Built-in agents**: `claude`, `gemini`, `codex`, `cursor`, `auggie`, `amp`, `opencode`, `copilot`, `pi`, `omp`, `vibe`
 
 > **Note on GitHub Copilot**: The `copilot` preset uses executable lifecycle hooks in
 > `.github/hooks/gastown.json` (`sessionStart`, `userPromptSubmitted`, `preToolUse`,

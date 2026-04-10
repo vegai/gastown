@@ -230,8 +230,8 @@ or `POST /telemetry` with rate limit event
 - `internal/config/env.go` — `AgentEnv()` (line ~65): generates 30+ env vars
   including GT_ROLE, GT_RIG, GT_POLECAT, GT_CREW, BD_ACTOR, GIT_AUTHOR_NAME,
   GT_ROOT, GT_AGENT, GT_SESSION, plus OTEL and credential passthrough
-- `internal/config/agents.go` — `builtinPresets` (line ~164): 10 agent presets
-  (Claude, Gemini, Codex, Cursor, Auggie, AMP, OpenCode, Copilot, Pi, OMP)
+- `internal/config/agents.go` — `builtinPresets` (line ~164): 11 agent presets
+  (Claude, Gemini, Codex, Cursor, Auggie, AMP, OpenCode, Copilot, Pi, OMP, Mistral)
   with 21 fields each (Command, Args, ProcessNames, SessionIDEnv, etc.)
 - `internal/session/identity.go` — `ParseSessionName()` (line ~84),
   `ParseAddress()` (line ~30), `SessionName()` (line ~163): identity parsing
